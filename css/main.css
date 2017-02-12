@@ -6,7 +6,7 @@ body {
   position: relative;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
-  overflow-x: hidden !important; }
+   }
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
