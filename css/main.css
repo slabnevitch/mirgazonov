@@ -1,11 +1,8 @@
-body, html {
-  width:100%;
-}
 body {
   font-family: "RobotoRegular", sans-serif;
   font-weight: normal;
   font-size: 15px;
-  /*width: 100%;*/
+  min-width: 980px;
   position: relative;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
