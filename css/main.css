@@ -1,4 +1,5 @@
-body, html {min-width:100%;
+body, html {
+  width:100%;
 }
 body {
   font-family: "RobotoRegular", sans-serif;
