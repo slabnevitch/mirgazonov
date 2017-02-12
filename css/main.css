@@ -25,7 +25,6 @@ input {
 section {
   position: relative; }
   section:before {
-    display: none;
     content: '';
     width: 100%;
     height: 74px;
@@ -34,6 +33,7 @@ section {
     right: 0;
     left: 0;
     background: url(../img/light-grass.png) 0 0 no-repeat; }
+    display: none;
   section h1 {
     margin: 0;
     margin-bottom: 20px;
