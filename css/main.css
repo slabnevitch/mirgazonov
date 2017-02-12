@@ -32,8 +32,8 @@ section {
     top: -36px;
     right: 0;
     left: 0;
-    background: url(../img/light-grass.png) 0 0 no-repeat; }
     display: none;
+    background: url(../img/light-grass.png) 0 0 no-repeat; }
   section h1 {
     margin: 0;
     margin-bottom: 20px;
