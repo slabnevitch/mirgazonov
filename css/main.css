@@ -95,7 +95,7 @@ section {
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 );
   /* IE6-9 */
-  font-family: "RobotoSlabRegular", "Georgia", "Cambria", "Times New Roman", "Times", serif;
+  font-family: "RobotoSlabBold", "Georgia", "Cambria", "Times New Roman", "Times", serif;
   font-weight: 700;
   color: #fff;
   text-transform: uppercase;
@@ -294,7 +294,7 @@ ul, li {
 
 .submenu__item {
   border-bottom: 2px solid #5A5A54;
-  font-family: "RobotoSlabRegular", "Georgia", "Cambria", "Times New Roman", "Times", serif; }
+  font-family: "RobotoSlabBold", "Georgia", "Cambria", "Times New Roman", "Times", serif; }
   .submenu__item:last-child {
     border-bottom: 0 none; }
 
@@ -501,7 +501,7 @@ ul, li {
   background: url(../img/bg-img-titlle.png) 0 0 no-repeat;
   text-align: center; }
   .prop-item__title span {
-    font-family: "RobotoSlabRegular", "Georgia", "Cambria", "Times New Roman", "Times", serif;
+    font-family: "RobotoSlabBold", "Georgia", "Cambria", "Times New Roman", "Times", serif;
     color: #fff;
     letter-spacing: -0.9px;
     font-size: 1.5em;
@@ -536,7 +536,7 @@ ul, li {
   line-height: 16px;
   background: url(../img/bg-item-sticker.png) 0 0 no-repeat; }
   .prop-item__sticker span {
-    font-size: 15px; }
+    font-size: 14px; }
 
 .footer {
   background: url(../img/bg-main-sect.jpg) 0 0 no-repeat;
