@@ -233,7 +233,7 @@ ul, li {
 .header__bottom {
   padding-top: 8px;
   padding-bottom: 60px;
-  background: #fff url(../img/bg-header-bottom.jpg) center no-repeat;
+  background: #4c3a37 url(../img/bg-header-bottom.jpg) center no-repeat;
   background-size: cover; }
 
 .header__bottom-left {
@@ -417,7 +417,7 @@ ul, li {
 .main-section {
   padding-bottom: 1px;
   text-align: center;
-  background: green url(../img/bg-main-sect.jpg) center top no-repeat;
+  background: #546b09 url(../img/bg-main-sect.jpg) center top no-repeat;
   background-size: cover; }
   .main-section h1 {
     position: relative; }
