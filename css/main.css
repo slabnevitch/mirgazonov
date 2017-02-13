@@ -6,7 +6,7 @@ body {
   position: relative;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
-   }
+  overflow-x: hidden; }
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
@@ -35,7 +35,7 @@ section {
     margin-bottom: 20px;
     display: inline-block;
     padding: 16px 85px 14px;
-    font-family: "Roboto Slab", "Georgia", "Cambria", "Times New Roman", "Times", serif;
+    font-family: "RobotoSlabRegular", "Georgia", "Cambria", "Times New Roman", "Times", serif;
     font-size: 2.1875em;
     color: #0a0b03;
     text-transform: uppercase;
@@ -95,7 +95,7 @@ section {
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 );
   /* IE6-9 */
-  font-family: "Roboto Slab", "Georgia", "Cambria", "Times New Roman", "Times", serif;
+  font-family: "RobotoSlabRegular", "Georgia", "Cambria", "Times New Roman", "Times", serif;
   font-weight: 700;
   color: #fff;
   text-transform: uppercase;
@@ -167,7 +167,7 @@ ul, li {
     margin-bottom: 23px; }
   .hidden-form input {
     padding: 5px 15px;
-    font-family: "Roboto Slab", "Georgia", "Cambria", "Times New Roman", "Times", serif; }
+    font-family: "RobotoSlabRegular", "Georgia", "Cambria", "Times New Roman", "Times", serif; }
   .hidden-form .button, .hidden-form .button-red {
     padding-top: 8px;
     padding-bottom: 8px;
@@ -175,7 +175,7 @@ ul, li {
     border-left: 0 none;
     border-right: 0 none; }
   .hidden-form h2 {
-    font-family: "Roboto Slab", "Georgia", "Cambria", "Times New Roman", "Times", serif;
+    font-family: "RobotoSlabRegular", "Georgia", "Cambria", "Times New Roman", "Times", serif;
     color: #eaf1e6;
     text-align: center; }
 
@@ -233,7 +233,7 @@ ul, li {
 .header__bottom {
   padding-top: 8px;
   padding-bottom: 60px;
-  background: #4c3a37 url(../img/bg-header-bottom.jpg) center no-repeat;
+  background: #fff url(../img/bg-header-bottom.jpg) center no-repeat;
   background-size: cover; }
 
 .header__bottom-left {
@@ -261,7 +261,7 @@ ul, li {
   margin-right: 19px;
   border-right: 5px solid #E8E8E8;
   text-align: right;
-  font-family: "Roboto Slab", "Georgia", "Cambria", "Times New Roman", "Times", serif;
+  font-family: "RobotoSlabRegular", "Georgia", "Cambria", "Times New Roman", "Times", serif;
   line-height: 2.1875em; }
 
 .header__mail {
@@ -293,14 +293,14 @@ ul, li {
   right: -60px; }
 
 .submenu__item {
-  border-bottom: 2px solid #5A5A54; }
+  border-bottom: 2px solid #5A5A54;
+  font-family: "RobotoSlabRegular", "Georgia", "Cambria", "Times New Roman", "Times", serif; }
   .submenu__item:last-child {
     border-bottom: 0 none; }
 
 .submenu__link {
   padding: 9px 12px;
   display: block;
-  font-family: "Roboto Slab", "Georgia", "Cambria", "Times New Roman", "Times", serif;
   font-size: 1.125em;
   text-transform: uppercase;
   color: #fff;
@@ -335,7 +335,7 @@ ul, li {
 
 .header__slogan {
   text-align: center;
-  font-family: "Roboto Slab", "Georgia", "Cambria", "Times New Roman", "Times", serif;
+  font-family: "RobotoSlabRegular", "Georgia", "Cambria", "Times New Roman", "Times", serif;
   font-weight: 700;
   font-size: 60px;
   color: #d7ea00;
@@ -372,13 +372,13 @@ ul, li {
   background-clip: padding-box; }
 
 .coupon__title {
-  font-family: "Roboto Slab", "Georgia", "Cambria", "Times New Roman", "Times", serif;
+  font-family: "RobotoSlabRegular", "Georgia", "Cambria", "Times New Roman", "Times", serif;
   font-size: 1.875em;
   color: #fff;
   margin-bottom: 16px; }
 
 .coupon__num {
-  font-family: "Roboto Slab", "Georgia", "Cambria", "Times New Roman", "Times", serif;
+  font-family: "RobotoSlabRegular", "Georgia", "Cambria", "Times New Roman", "Times", serif;
   width: 128px;
   height: 128px;
   -webkit-border-radius: 50%;
@@ -410,14 +410,14 @@ ul, li {
   line-height: 1.0625em;
   background: url(../img/yellow.png) 0 0 no-repeat; }
   .coupon__descr span {
-    font-family: "Roboto Slab", "Georgia", "Cambria", "Times New Roman", "Times", serif;
+    font-family: "RobotoSlabRegular", "Georgia", "Cambria", "Times New Roman", "Times", serif;
     display: block;
     transform: rotate(-10deg); }
 
 .main-section {
   padding-bottom: 1px;
   text-align: center;
-  background: #546b09 url(../img/bg-main-sect.jpg) center top no-repeat;
+  background: green url(../img/bg-main-sect.jpg) center top no-repeat;
   background-size: cover; }
   .main-section h1 {
     position: relative; }
@@ -427,8 +427,7 @@ ul, li {
       height: 3px;
       top: 50%;
       opacity: .5;
-      position: absolute;
-       }
+      position: absolute; }
     .main-section h1:before {
       left: -528px;
       background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, white 100%);
@@ -502,7 +501,7 @@ ul, li {
   background: url(../img/bg-img-titlle.png) 0 0 no-repeat;
   text-align: center; }
   .prop-item__title span {
-    font-family: "Roboto Slab", "Georgia", "Cambria", "Times New Roman", "Times", serif;
+    font-family: "RobotoSlabRegular", "Georgia", "Cambria", "Times New Roman", "Times", serif;
     color: #fff;
     letter-spacing: -0.9px;
     font-size: 1.5em;
@@ -531,7 +530,7 @@ ul, li {
   top: -25px;
   right: -18px;
   text-align: left;
-  font-family: "Roboto Slab", "Georgia", "Cambria", "Times New Roman", "Times", serif;
+  font-family: "RobotoSlabRegular", "Georgia", "Cambria", "Times New Roman", "Times", serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 16px;
@@ -552,8 +551,8 @@ ul, li {
     margin-top: 0;
     text-transform: uppercase;
     color: #fff;
-    font-family: "Roboto Slab", "Georgia", "Cambria", "Times New Roman", "Times", serif;
-    font-size: 1.6875em;
+    font-family: "RobotoSlabRegular", "Georgia", "Cambria", "Times New Roman", "Times", serif;
+    font-size: 1.5625em;
     text-align: center; }
 
 .footer__form label {
@@ -570,7 +569,7 @@ ul, li {
   -moz-background-clip: padding-box;
   background-clip: padding-box;
   border: 0 none;
-  font-family: "Roboto Slab", "Georgia", "Cambria", "Times New Roman", "Times", serif;
+  font-family: "RobotoSlabRegular", "Georgia", "Cambria", "Times New Roman", "Times", serif;
   font-size: 1.125em; }
   .footer__form input::-webkit-input-placeholder {
     color: #5a5a59; }

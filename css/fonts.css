@@ -3,5 +3,15 @@
   font-style: normal;
   font-weight: normal;
   src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype"); }
+@font-face {
+  font-family: "RobotoSlabRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/RobotoSlabRegular/RobotoSlabRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoSlabRegular/RobotoSlabRegular.woff") format("woff"), url("../fonts/RobotoSlabRegular/RobotoSlabRegular.ttf") format("truetype"); }
+@font-face {
+  font-family: "RobotoSlabBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/RobotoSlabBold/RobotoSlabBold.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoSlabBold/RobotoSlabBold.woff") format("woff"), url("../fonts/RobotoSlabBold/RobotoSlabBold.ttf") format("truetype"); }
 
 /*# sourceMappingURL=fonts.css.map */
