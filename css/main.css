@@ -428,7 +428,8 @@ ul, li {
       height: 3px;
       top: 50%;
       opacity: .5;
-      position: absolute; }
+      position: absolute;
+      display: none; }
     .main-section h1:before {
       left: -528px;
       background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, white 100%);
